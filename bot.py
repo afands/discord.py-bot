@@ -31,7 +31,7 @@ bot.version = '1.0'
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(platform="Twitch", url="https://www.twitch.tv/asupanwifi", name="games"))
+    await bot.change_presence(activity=discord.Streaming(platform="Twitch", url="yourlink", name="games"))
 
 @bot.event
 async def on_message(message):
